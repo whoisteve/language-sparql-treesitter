@@ -1,0 +1,17 @@
+{
+  "name": "language-sparql-treesitter",
+  "version": "0.0.0",
+  "description": "A short description of your language package",
+  "keywords": [
+    "treesitter",
+    "tree-sitter",
+    "sparql",
+    "language",
+    "grammar"
+  ],
+  "repository": "https://github.com/stevomat/language-sparql-treesitter",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
