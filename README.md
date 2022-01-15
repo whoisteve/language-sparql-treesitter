@@ -1,4 +1,4 @@
-# Sparql-Treesitter language package
+# language-sparql-treesitter package
 
 Atom language support for Sparql with Tree-Sitter.
 
