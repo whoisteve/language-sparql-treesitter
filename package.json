@@ -1,7 +1,7 @@
 {
   "name": "language-sparql-treesitter",
   "version": "0.0.0",
-  "description": "A short description of your language package",
+  "description": "Sparql support for Atom",
   "keywords": [
     "treesitter",
     "tree-sitter",
@@ -13,5 +13,9 @@
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "electron-rebuild": "^3.2.7",
+    "tree-sitter-sparql": "git+https://github.com/BonaBeavis/tree-sitter-sparql.git"
   }
 }

@@ -1,3 +1,12 @@
 # Sparql-Treesitter language package
 
-A short description of your language package.
+Atom language support for Sparql with Tree-Sitter.
+
+- [Tree-Sitter-Sparql](https://github.com/BonaBeavis/tree-sitter-sparql)
+
+## Installation
+
+```sh
+npm install
+$(npm bin)/electron-rebuild -v 9.0.0
+```

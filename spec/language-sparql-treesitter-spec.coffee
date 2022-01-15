@@ -1,7 +1,4 @@
-# If you want an example of language specs, check out:
-# https://github.com/atom/language-javascript/blob/master/spec/javascript-spec.coffee
-
-describe "SparqlTreesitter grammar", ->
+describe "Sparql grammar", ->
   grammar = null
 
   beforeEach ->

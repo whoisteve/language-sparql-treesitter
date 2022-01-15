@@ -1,14 +1,25 @@
-# If this is your first time writing a language grammar, check out:
-#   - https://flight-manual.atom.io/hacking-atom/sections/creating-a-grammar/
-
+'name': 'Sparql'
 'scopeName': 'source.sparql-treesitter'
-'name': 'SparqlTreesitter'
+'type': 'tree-sitter'
+'parser': 'tree-sitter-sparql'
+
 'fileTypes': [
-  'extension'
+  'rq'
 ]
-'patterns': [
-  {
-    'match': '^\\s*@@.*$'
-    'name': 'comment'
-  }
-]
+
+scopes:
+  'unit': 'source.sparql-treesitter'
+
+  'base_declaration': 'keyword.sparql-treesitter'
+
+  'prefix_declaration': 'keyword.sparql-treesitter'
+
+  'pn_prefix': 'constant.complex.sparql-treesitter'
+
+  'iri_reference': 'support.function.sparql-treesitter' #'string.uri.sparql-treesitter'
+
+  'integer': 'constant.numeric.decimal'
+
+  'string': 'string.quoted_single' # string.sparql-treesitter
+
+  'var': 'variable.sparql-treesitter'
